@@ -1,0 +1,14 @@
+{
+  "name": "post-loop",
+  "title": "Post Loop",
+  "description": "Displays my post loop ACF block.",
+  "category": "theme",
+  "apiVersion": 2,
+  "acf": {
+      "mode": "preview",
+      "renderCallback": "PostLoop::render"
+  },
+  "supports": {
+      "anchor": true
+  }
+}
